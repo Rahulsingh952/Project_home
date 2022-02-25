@@ -4,6 +4,14 @@ return (p -s );
 }
 char *my_strcpy(char *t, char *s)
 
+
+size_t my_strlen(const char *s)
+{
+   char *p = s;
+
+   while (*p)
+      ++p;
+
 {
    
    char *p = t;
